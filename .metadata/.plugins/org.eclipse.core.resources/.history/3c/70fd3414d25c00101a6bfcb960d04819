@@ -1,0 +1,16 @@
+/*
+ * SysConfig.h
+ *
+ *  Created on: Jul 8, 2025
+ *      Author: rodolfo
+ */
+
+#ifndef SYSCONFIG_H_
+#define SYSCONFIG_H_
+
+#include "main.h"
+
+// Defino la función que controla el reloj del sistema
+bool SysConfigClock(void);
+
+#endif /* SYSCONFIG_H_ */

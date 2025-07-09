@@ -1,0 +1,32 @@
+/*
+ * SysConfig.c
+ *
+ *  Created on: Jul 8, 2025
+ *      Author: rodolfo
+ */
+
+
+#include "SysConfig.h"
+
+void SysConfigClock(void)
+{
+	// Estructuras para configurar el reloj del sistema
+	RCC_OscInitTypeDef oscInit = {0};
+	RCC_ClkInitTypeDef clkInit = {0};
+
+	// Definimos el tipo de oscilador como externo de alta velocidad
+	oscInit.OscillatorType = RCC_OSCILLATORTYPE_HSE;
+
+	// Definimos el estado, para que habilite el oscilador externo
+	oscInit.HSEState = RCC_HSE_ON;
+
+	// Definimos la fuente de PLL y lo habilitamos
+	oscInit.PLL.PLLSource = RCC_PLLSOURCE_HSE;
+	oscInit.PLL.PLLState = RCC_PLL_ON;
+	oscInit.PLL.PLLM = 4;
+	oscInit.PLL.PLLN = 84;
+	oscInit.PLL.PLLP = RCC_PLL_DIV2;
+	oscInit.PLL.PLLQ = 7;
+
+}
+

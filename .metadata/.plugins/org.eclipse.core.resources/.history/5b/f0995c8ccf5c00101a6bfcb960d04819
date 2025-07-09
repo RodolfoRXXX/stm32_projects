@@ -1,0 +1,15 @@
+/*
+ * SysConfig.c
+ *
+ *  Created on: Jul 8, 2025
+ *      Author: rodolfo
+ */
+
+
+#include "SysConfig.h"
+
+void SysConfigClock(void)
+{
+
+}
+

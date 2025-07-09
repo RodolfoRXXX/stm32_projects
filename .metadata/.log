@@ -1,0 +1,51 @@
+!SESSION 2025-07-07 19:52:43.989 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_AR
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-07-07 19:53:37.928
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-07-07 19:53:37.929
+!MESSAGE Log4j2 initialized with config file /home/rodolfo/programacion/stm32_projects/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-07-07 19:53:42.309
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-07-07 19:57:17.171
+!MESSAGE Indexed 'hola_mundo' (17 sources, 78 headers) in 4.5 sec: 3,647 declarations; 13,278 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.012%)
+!SESSION 2025-07-09 09:27:39.111 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_AR
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-07-09 09:27:54.137
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-07-09 09:28:06.329
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-07-09 09:28:06.329
+!MESSAGE Log4j2 initialized with config file /home/rodolfo/programacion/stm32_projects/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-07-09 09:28:16.857
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2025-07-09 10:33:54.458 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_AR
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-07-09 10:34:00.020
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-07-09 10:34:00.021
+!MESSAGE Log4j2 initialized with config file /home/rodolfo/programacion/stm32_projects/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-07-09 10:34:04.312
+!MESSAGE Started RMI Server, listening on port 41337
