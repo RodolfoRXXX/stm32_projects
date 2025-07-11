@@ -16,7 +16,6 @@ bool SysConfigClock(void)
 
 	// Definimos el tipo de oscilador como externo de alta velocidad
 	oscInit.OscillatorType = RCC_OSCILLATORTYPE_HSE;
-
 	// Definimos el estado, para que habilite el oscilador externo
 	oscInit.HSEState = RCC_HSE_ON;
 
@@ -29,10 +28,7 @@ bool SysConfigClock(void)
 	oscInit.PLL.PLLQ = 7;
 
 	// función de HAL para que configure el reloj
-	if(HAL_RCC_OscConfig(&oscInit) != HAL_OK)
-	{
-		return false;
-	}
+	if(HAL_RCC_OscConfig(&oscInit) != HAL_OK) return false;
 
 	clkInit.ClockType = RCC_CLOCKTYPE_SYSCLK | RCC_CLOCKTYPE_HCLK |
 						RCC_CLOCKTYPE_PCLK1 | RCC_CLOCKTYPE_PCLK2;
@@ -42,12 +38,8 @@ bool SysConfigClock(void)
 	clkInit.APB1CLKDivider = RCC_HCLK_DIV2;
 	clkInit.APB2CLKDivider = RCC_HCLK_DIV1;
 
-	if(HALL_RCC_ClockConfig(&clkInit, FLASH_LATENCY_2) != HAL_OK)
-	{
-		return false;
-	}
+	if(HALL_RCC_ClockConfig(&clkInit, FLASH_LATENCY_2) != HAL_OK) return false; 
 
 	return true;
-
 }
 

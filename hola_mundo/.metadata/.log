@@ -1,0 +1,45 @@
+!SESSION 2025-07-10 09:17:49.452 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_AR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-07-10 09:18:00.552
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-07-10 09:18:00.553
+!MESSAGE Log4j2 initialized with config file C:\Users\Rodolfo\Documents\programacion\stm32_projects\hola_mundo\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-07-10 09:18:02.867
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2025-07-10 09:19:32.353 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_AR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-07-10 09:19:40.540
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-07-10 09:19:40.541
+!MESSAGE Log4j2 initialized with config file C:\Users\Rodolfo\Documents\programacion\stm32_projects\hola_mundo\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-07-10 09:19:43.488
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2025-07-10 09:21:39.403 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_AR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\Rodolfo\Documents\programacion\stm32_projects\hola_mundo
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-07-10 09:21:43.271
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-07-10 09:21:43.272
+!MESSAGE Log4j2 initialized with config file C:\Users\Rodolfo\Documents\programacion\stm32_projects\hola_mundo\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-07-10 09:21:45.893
+!MESSAGE Started RMI Server, listening on port 41337
